@@ -138,7 +138,7 @@ MIT License
 
 如果这个工具对你有帮助，欢迎扫码请作者喝杯咖啡。感谢支持！
 
-![微信赞赏码](assets/wechat-donate.jpg)
+![微信赞赏码](wechat-donate.jpg)
 
 ---
 
