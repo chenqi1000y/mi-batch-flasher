@@ -1,0 +1,34 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== PyInstaller 构建产物 =====
+build/
+*.spec.bak
+
+# ===== ROM 包（体积大，不提交）=====
+roms/*.zip
+dist/roms/*.zip
+# ROM/tool archives must not be published; they are either copyrighted packages
+# or locally generated downloads.
+*.zip
+*.tgz
+# Extracted fastboot ROM images are not project source and must not be published.
+whyred/
+# Local MiFlash and driver bundles are third-party tools. The distributable
+# contains only the required adb/fastboot files under dist/tools/.
+tools/
+
+# ===== 临时文件 =====
+*.tmp
+*.log
+ors_*.txt
+parts64/
+*.png
+
+# ===== 系统 =====
+Thumbs.db
+.DS_Store
